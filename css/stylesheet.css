@@ -26,7 +26,7 @@ nav {
 }
 
 nav ul {
-  padding: 12px 0 0 0;
+  padding: 10px 0 0 0;
   float: right;
 }
 
@@ -41,19 +41,19 @@ nav ul li:last-child {
   margin-right: 0px;
 }
 
-.teal-text {
+.text-teal {
   color: #58B3AF;
 }
 
-.burgundy-text {
+.text-burgundy {
   color: #AB1530;
 }
 
-.teal-content-box {
+.content-box-teal {
   background-color: #58B3AF;
 }
 
-.burgundy-content-box {
+.content-box-burgundy {
   background-color: #AB1530;
 }
 
@@ -67,10 +67,6 @@ h1 {
   font-weight: 400;
 }
 
-h1#hero-title {
-  font-size: 2.250em;
-}
-
 h2 {
   font-style: italic;
 }
@@ -80,6 +76,7 @@ h3 {
 }
 
 p {
+  font-family: font-family: 'Muli', sans-serif;
   font-size: 1.125em;
   line-height: 2.25em;
 }
@@ -157,7 +154,7 @@ button:hover::before {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .logo {
-  margin: 8px 0 0 0;
+  margin: 5px 0 0 0;
   float: left;
   color: #ffffff;
   text-transform: uppercase;
@@ -165,11 +162,20 @@ button:hover::before {
 
 #hero {
   position: relative;
-  padding: 55px 0 0 0;
+  padding: 115px 0 0 0;
+}
+
+#hero-name {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.438em;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0 0 0 0;
 }
 
 #hero-title {
-  margin: 50px 0 27px 0;
+  font-size: 1.250em;
+  margin: 0 0 27px 0;
 }
 
 #hero-mountain {
@@ -190,7 +196,7 @@ button:hover::before {
 .social-links {
   z-index: 10;
   margin: 0 auto;
-  padding: 0 0 35px 0;
+  padding: 0 0 170px 0;
 }
 
 .social-links li {
