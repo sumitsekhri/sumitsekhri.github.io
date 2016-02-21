@@ -9,6 +9,7 @@
   <link href='https://fonts.googleapis.com/css?family=Muli:400,300italic,300,400italic' rel='stylesheet' type='text/css'>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <script src="js/scripts.js"></script>
+
   <!-- <script src="https://use.typekit.net/vzm6mpc.js"></script> -->
   <script>try{Typekit.load({ async: true });}catch(e){}</script>
 </head>
@@ -84,31 +85,84 @@
   <div class="row">
     <div class="white-content-box skills">
       <div class="container">
-        <div class="col s4 m4 l4 center">
-          <ul class="skills">
-            <li>HTML</li>
-            <li>CSS (SASS)</li>
-            <li>JAVASCRIPT</li>
-            <li>RUBY</li>
-            <li>SQLite</li>
-            <li>POSTGRES</li>
-          </ul>
+
+        <div id="tabs">
+          <div class="col s12 m3 l3">
+            <ul>
+              <li><a href="#tabs-1">Languages</a></li>
+              <li><a href="#tabs-2">Frameworks & Libraries</a></li>
+              <li><a href="#tabs-3">Softwares</a></li>
+            </ul>
+          </div>
+
+          <div class="col s12 m9 l9">
+            <div id="tabs-1">
+              <h2>Languages</h2>
+              <div class="col s4 m4 l4">
+                <ul class="skills">
+                  <li>Html</li>
+                  <li>Javascript</li>
+                  <li>Postgres</li>
+                </ul>
+              </div>
+              <div class="col s4 m4 l4">
+                <ul class="skills">
+                  <li>CSS3</li>
+                  <li>Ruby</li>
+                </ul>
+              </div>
+              <div class="col s4 m4 l4">
+                <ul class="skills">
+                  <li>SASS/LESS</li>
+                  <li>SQLLite</li>
+                </ul>
+              </div>
+            </div>
+
+            <div id="tabs-2">
+              <h2>Frameworks</h2>
+              <div class="col s4 m4 l4">
+                <ul class="skills">
+                  <li>JQuery</li>
+                  <li>Grunt/Gulp</li>
+                </ul>
+              </div>
+              <div class="col s4 m4 l4">
+                <ul class="skills">
+                  <li>Rails</li>
+                </ul>
+              </div>
+              <div class="col s4 m4 l4">
+                <ul class="skills">
+                  <li>Sinatra</li>
+                </ul>
+              </div>
+            </div>
+
+            <div id="tabs-3">
+              <h2>Softwares</h2>
+              <div class="col s4 m4 l4">
+                <ul class="skills">
+                  <li>Github/Bitbucket</li>
+                  <li>Adobe Photoshop</li>
+                </ul>
+              </div>
+              <div class="col s4 m4 l4">
+                <ul class="skills">
+                  <li>Sequel Pro</li>
+                  <li>Adobe Illustrator</li>
+                </ul>
+              </div>
+              <div class="col s4 m4 l4">
+                <ul class="skills">
+                  <li>Sketch</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
         </div>
-        <div class="col s4 m4 l4 center">
-          <ul class="skills">
-            <li>JQUERY</li>
-            <li>RAILS</li>
-            <li>SINATRA</li>
-          </ul>
-        </div>
-        <div class="col s4 m4 l4 center">
-          <ul class="skills last">
-            <li>GITHUB</li>
-            <li>SKETCH</li>
-            <li>PHOTOSHOP</li>
-            <li>ILLUSTRATOR</li>
-          </ul>
-        </div>
+
       </div>
     </div>
   </div>
@@ -182,4 +236,14 @@
     </footer>
   </div>
 </body>
+
+ <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+ <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+ <!-- <link rel="stylesheet" href="/resources/demos/style.css"> -->
+ <!-- <script>
+ $(function() {
+   $( "#tabs" ).tabs().addClass( "ui-tabs-vertical ui-helper-clearfix" );
+   $( "#tabs li" ).removeClass( "ui-corner-top" ).addClass( "ui-corner-left" );
+ });
+ </script> -->
 </html>

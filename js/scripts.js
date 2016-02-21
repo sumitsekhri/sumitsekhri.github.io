@@ -15,4 +15,9 @@ $(document).ready(function(){
   // var element_to_scroll_to = $('.my-element-class')[0];
   //
   // element_to_scroll_to.scrollIntoView();
+
+  $(function() {
+    $( "#tabs" ).tabs().addClass( "ui-tabs-vertical ui-helper-clearfix" );
+    $( "#tabs li" ).removeClass( "ui-corner-top" ).addClass( "ui-corner-left" );
+  });
 });
