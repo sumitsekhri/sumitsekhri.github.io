@@ -34,6 +34,7 @@ nav ul li {
   display: inline;
   float: left;
   margin: 2px 40px 0 0;
+  font-weight: 300;
   text-transform: uppercase;
 }
 
@@ -295,7 +296,7 @@ button:hover::before {
 
 .skills {
   /*height: 395px;*/
-  margin: 40px 0;
+  margin: 40px 0 0 0;
 }
 
 .skills li {
@@ -317,6 +318,7 @@ button:hover::before {
 .ui-tabs-vertical .ui-tabs-nav {
   float: left;
   width: 12em;
+  margin: 0 0 0 0;
 }
 
 .ui-tabs-vertical .ui-tabs-nav li {
@@ -331,7 +333,12 @@ button:hover::before {
 
 /*.ui-tabs-vertical .ui-tabs-nav li:active { border-right: 2px solid #AB1530;}*/
 
-.ui-tabs-vertical .ui-tabs-nav li a { display:block; color: #AB1530; outline: 0; }
+.ui-tabs-vertical .ui-tabs-nav li a {
+  display:block;
+  color: #AB1530;
+  font-size: 1.1em;
+  outline: 0;
+}
 
 .ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active { padding-bottom: 0; border-right: 2px solid; }
 
