@@ -51,15 +51,41 @@
 }
 
 .project p {
+  padding: 27px 12px 0 12px;
+}
 
+.project a {
+  padding: 0 0 0 0;
+  margin: 6px 0 0 12px;
+  position: absolute;
+  text-decoration: underline;
+}
+
+.project a:hover {
+  color: #58B3AF;
+}
+
+.project ul {
+  padding: 22px   0 0 22px;
+}
+
+.project li {
+  list-style-type: none;
 }
 
 .project img {
   width: 100%
 }
 
+#project-icon {
+  width: 33px;
+}
+
 #details {
   background-color: #EBEAEA;
+  margin: 38px 0 0 0;
+  padding: 0 12px 0 0;
+  height: 125px
 }
 
 
