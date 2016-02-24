@@ -9,7 +9,7 @@ $(document).ready(function(){
 
   $('.overlay').on('click',function(){
     console.log("yo");
-    $(this).parent('.project').toggleClass('expand-project');
+    $(this).parent('.showcase').toggleClass('expand-showcase');
     console.log("second step");
   });
   // var element_to_scroll_to = $('.my-element-class')[0];

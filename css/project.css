@@ -38,9 +38,24 @@
 /* Lists
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-/* Content
+/* Code
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+.project {
+  margin: 70px 0 0 0;
+}
+
+.project h1 {
+  font-family: font-family: 'Muli', sans-serif;
+}
+
+.project p {
+
+}
+
+#details {
+  background-color: #EBEAEA;
+}
 
 
 /* Tables

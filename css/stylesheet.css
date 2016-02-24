@@ -42,11 +42,13 @@ nav ul li:last-child {
   margin-right: 0px;
 }
 
-.teal {
+/* Teal */
+.primary-color {
   color: #58B3AF;
 }
 
-.burgundy {
+/* Burgundy */
+.secondary-color {
   color: #AB1530;
 }
 
@@ -90,7 +92,7 @@ p {
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-.launch-project {
+.launch-showcase {
   position: absolute;
   left:0; right:0;
   top:0; bottom:0;
@@ -195,18 +197,18 @@ button:hover::before {
   float: right;
 }
 
-.social-links {
+.social {
   z-index: 10;
   margin: 0 auto;
   padding: 0 0 170px 0;
 }
 
-.social-links li {
+.social li {
   display: inline;
   margin: 0 30px 0 0;
 }
 
-.social-links li:last-child {
+.social li:last-child {
   margin: 0 0 0 0;
 }
 
@@ -226,34 +228,34 @@ button:hover::before {
   text-align: justify;
 }
 
-.project {
+.showcase {
   /*height: 550px;*/
   padding: 40px 128px 0 128px;
 }
 
-.project h1 {
+.showcase h1 {
   margin: 0 0 18px 0;
   padding: 30px 0 0 0;
 }
 
-.project h2 {
+.showcase h2 {
   margin: 0 0 0 0;
 }
 
-.project h3 {
+.showcase h3 {
   margin: 0 0 40px 0;
 }
 
-.project p {
+.showcase p {
   font-size: 1em;
   font-weight: 400;
 }
 
-.project img {
+.showcase img {
   width: 100%
 }
 
-.expand-project {
+.expand-showcase {
   background-color: black;
   height: 900px;
 }
@@ -387,7 +389,7 @@ footer p {
     padding: 40px 5px;
   }
 
-  .project {
+  .showcase {
     padding: 40px 0 0 0;
   }
 }
