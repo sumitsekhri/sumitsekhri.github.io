@@ -43,14 +43,19 @@
 
 .project {
   margin: 70px 0 0 0;
+  float: none;
 }
 
 .project h1 {
-  
+
 }
 
 .project p {
 
+}
+
+.project img {
+  width: 100%
 }
 
 #details {
