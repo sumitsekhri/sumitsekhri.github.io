@@ -1,0 +1,59 @@
+/* Media Queries
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Larger than mobile */
+@media (max-width: 750px) {
+
+  h3 {
+    font-size: 1.6em;
+  }
+
+  #avatar {
+    float: none;
+    margin: 0 auto;
+  }
+
+  #about-me {
+    padding: 40px 5px;
+  }
+
+  #about-me h3 {
+    margin: 60px 0 60px 0px;
+    text-align: center;
+  }
+
+  .showcase {
+    padding: 40px 0 0 0;
+  }
+}
+
+/* Larger than phablet (also point when grid becomes active) */
+/*@media (min-width: 569px) and (max-width: 736px) {
+
+}*/
+
+/* Larger than tablet */
+@media (min-width: 751px) and (max-width:993px) {
+  #about-me p {
+    padding: 0 40px;
+  }
+}
+
+@media (min-width: 994px) {
+  #about-me p {
+    padding: 0 40px;
+  }
+
+  footer p {
+    text-align: left;
+    padding: 21px 0 0 0;
+  }
+}
+
+/* Larger than desktop */
+/*@media (min-width: 1000px) {
+
+}
+
+/* Larger than Desktop HD */
+/*@media (min-width: 1200px) {}*/

@@ -97,6 +97,7 @@ p {
   left:0; right:0;
   top:0; bottom:0;
   margin:auto;
+  padding: 3px 0 0 0;
 }
 
 .see-more span{
@@ -379,48 +380,3 @@ footer p {
   text-align: center;
   padding: 21px 0 0 0;
 }
-
-/* Media Queries
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-/* Larger than mobile */
-@media (max-width: 600px) {
-  #about-me {
-    padding: 40px 5px;
-  }
-
-  .showcase {
-    padding: 40px 0 0 0;
-  }
-}
-
-/* Larger than phablet (also point when grid becomes active) */
-/*@media (min-width: 569px) and (max-width: 736px) {
-
-}*/
-
-/* Larger than tablet */
-@media (min-width: 600px) {
-  #about-me p {
-    padding: 0 40px;
-  }
-}
-
-@media (min-width: 993px) {
-  #about-me p {
-    padding: 0 40px;
-  }
-
-  footer p {
-    text-align: left;
-    padding: 21px 0 0 0;
-  }
-}
-
-/* Larger than desktop */
-/*@media (min-width: 1000px) {
-
-}
-
-/* Larger than Desktop HD */
-/*@media (min-width: 1200px) {}*/

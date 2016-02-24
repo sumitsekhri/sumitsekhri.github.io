@@ -30,11 +30,10 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .container {
   position: relative;
-  width: 95%;
-  /*max-width: 960px;*/
+  width: 85%;
   margin: 0 auto;
   padding: 0;
-  /*box-sizing: border-box;*/ }
+}
 
 .row  {
   margin-left: auto;
@@ -93,10 +92,11 @@
 }
 
 /* For devices larger than 569px and smaller than 736px */
-@media (min-width: 751px) {
+@media (min-width: 751px) and (max-width: 993px){
   .container {
     width: 95%;
-    padding: 0; }
+    padding: 0;
+  }
 
   .col.m1                  { width: 8.33333333334%; }
   .col.m2                  { width: 16.6666666667%; }
@@ -136,9 +136,9 @@
 }
 
 /* For devices larger than 737px */
-@media (min-width: 993px) {
+@media (min-width: 994px) {
   .container {
-    width: 85%; }
+    max-width: 85%; }
   .col {
     margin-left: 0%; }
 
@@ -456,36 +456,10 @@ hr {
 /* Clearing
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-/* Self Clearing Goodness */
+/* Clearing */
 .container:after,
 .row:after,
 .u-cf {
   content: "";
   display: table;
   clear: both; }
-
-
-/* Media Queries
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-/*
-Note: The best way to structure the use of media queries is to create the queries
-near the relevant code. For example, if you wanted to change the styles for buttons
-on small devices, paste the mobile query code up in the buttons section and style it
-there.
-*/
-
-
-/* Larger than mobile */
-@media (min-width: 400px) {}
-
-/* Larger than phablet (also point when grid becomes active) */
-@media (min-width: 550px) {}
-
-/* Larger than tablet */
-@media (min-width: 750px) {}
-
-/* Larger than desktop */
-@media (min-width: 1000px) {}
-
-/* Larger than Desktop HD */
-@media (min-width: 1200px) {}
