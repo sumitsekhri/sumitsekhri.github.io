@@ -161,8 +161,8 @@
   .col.50                  { width: 50%; }
 
   /* Offsets */
-  .offset-m1               { margin-left: 8.33333333334%; }
-  .offset-m2               { margin-left: 16.6666666667%; }
+  .offset-l1               { margin-left: 8.33333333334%; }
+  .offset-l2               { margin-left: 16.6666666667%; }
   .offset-l3               { margin-left: 25%;            }
   .offset-l4               { margin-left: 33.3333333333%; }
   .offset-l5               { margin-left: 41.6666666667%; }
