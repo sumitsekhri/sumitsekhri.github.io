@@ -51,7 +51,7 @@
 }
 
 .project p {
-  padding: 27px 12px 0 12px;
+  padding: 27px 24px 0 12px;
 }
 
 .project a {
@@ -66,7 +66,7 @@
 }
 
 .project ul {
-  padding: 22px   0 0 22px;
+  padding: 22px 22px 0 22px;
 }
 
 .project li {
@@ -83,9 +83,12 @@
 
 #details {
   background-color: #EBEAEA;
-  margin: 38px 0 40px 0;
-  padding: 0 12px 0 0;
-  height: 125px
+  margin: 38px 12px 40px 0;
+}
+
+#details p {
+  padding: 0 22px 12px 22px;
+  font-size: 1em;
 }
 
 #divider {
