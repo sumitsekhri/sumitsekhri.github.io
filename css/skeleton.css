@@ -52,7 +52,7 @@
 
 /* For devices smaller than 568px */
 
-@media only screen and (max-width: 375px) {
+@media (min-width: 375px) and (max-width: 667px) {
 
   .col.s1                  { width: 8.33333333334%; }
   .col.s2                  { width: 16.6666666667%; }
@@ -92,7 +92,7 @@
 }
 
 /* For devices larger than 569px and smaller than 736px */
-@media (min-width: 751px) and (max-width: 993px){
+@media (min-width: 668px) and (max-width: 993px){
   .container {
     width: 95%;
     padding: 0;

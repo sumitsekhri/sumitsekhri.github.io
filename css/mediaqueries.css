@@ -2,10 +2,14 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 /* Larger than mobile */
-@media (max-width: 750px) {
+@media (min-width: 375px) and (max-width: 667px) {
 
   h3 {
     font-size: 1.6em;
+  }
+
+  img#hero-mountain {
+    max-width: 375px;
   }
 
   #avatar {
@@ -57,8 +61,7 @@
 
 }*/
 
-/* Larger than tablet */
-@media (min-width: 751px) and (max-width:993px) {
+@media (min-width: 668px) and (max-width:993px) {
   #about-me p {
     padding: 0 40px;
   }
