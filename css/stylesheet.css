@@ -42,11 +42,15 @@ nav ul li:last-child {
   margin-right: 0px;
 }
 
+nav.mobile {
+  display: none;
+}
+
 nav.mobile ul {
   position: absolute;
   z-index: 99999;
   display: none;
-  margin:2px 0 0 0;
+  margin:-32px 0 0 0;
   width: 100%;
 }
 

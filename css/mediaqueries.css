@@ -4,7 +4,11 @@
 /* Larger than mobile */
 @media (min-width: 375px) and (max-width: 667px) {
   nav.desktop {
-    display: none;  
+    display: none;
+  }
+
+  nav.mobile {
+    display: block;
   }
 
   h3 {
