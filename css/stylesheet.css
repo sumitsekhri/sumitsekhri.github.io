@@ -221,11 +221,9 @@ button:hover::before {
 }
 
 #avatar {
-  margin: 65px 0 0 0;
+  margin: 90px 0 0 0;
   width: 200px;
   height: 200px;
-  border: 6px solid #FFFFFF;
-  border-radius: 50%;
   float: right;
 }
 
