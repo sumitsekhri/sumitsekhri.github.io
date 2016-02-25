@@ -281,8 +281,13 @@ button:hover::before {
   color: #58B3AF;
 }
 
-.employers img {
-  height: 46px
+#apple {
+  display: block;
+  margin: 0 auto;
+}
+
+#lemonstand {
+  padding: 7px 0 0 0;
 }
 
 .right {
@@ -302,18 +307,26 @@ button:hover::before {
   margin: 40px 0 0 0;
 }
 
-.skills li {
+.skills ul li {
   /*margin: 0 auto 12px;*/
   padding: 6px;
   width: 160px;
   list-style-type: none;
   text-transform: uppercase;
   color: #AB1530;
+  display: inline;
+  float: left
 }
 
 .skills h2 {
   color: #AB1530;
   font-weight: 400;
+}
+
+.tabs ul li {
+  display: inline;
+  float: left;
+  width: 100px;
 }
 
 /*.ui-tabs-vertical { }*/
