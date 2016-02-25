@@ -3,6 +3,9 @@
 
 /* Larger than mobile */
 @media (min-width: 375px) and (max-width: 667px) {
+  nav.desktop {
+    display: none;  
+  }
 
   h3 {
     font-size: 1.6em;

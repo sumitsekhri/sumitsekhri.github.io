@@ -42,6 +42,33 @@ nav ul li:last-child {
   margin-right: 0px;
 }
 
+nav.mobile ul {
+  position: absolute;
+  z-index: 99999;
+  display: none;
+  margin:2px 0 0 0;
+  width: 100%;
+}
+
+nav.mobile li {
+  height: 35px;
+  display: block;
+  background-color: #AB1530;
+  text-align: center;
+  float: none;
+  margin: 0;
+}
+
+nav.mobile li a {
+  padding: 0 0;
+}
+
+.menu-button {
+  padding: 9px 0 0 0;
+  float: right;
+  text-transform: uppercase;
+}
+
 /* Teal */
 .primary-color {
   color: #58B3AF;
@@ -356,11 +383,11 @@ button:hover::before {
   outline: 0;
 }
 
-.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active { padding-bottom: 0; border-right: 2px solid; }
+.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active {
+  padding-bottom: 0;
+  border-right: 2px solid;
+}
 
-/*.ui-tabs-vertical .ui-tabs-panel {
-
-}*/
 
 .title {
   padding: 27px 0;

@@ -1,4 +1,17 @@
 $(document).ready(function(){
+  $(function() {
+    $( "#tabs" ).tabs().addClass( "ui-tabs-vertical ui-helper-clearfix" );
+    $( "#tabs li" ).removeClass( "ui-corner-top" ).addClass( "ui-corner-left" );
+  });
+  
+  $('.menu-button').on('click', function(){
+    $('ul').toggle();
+  });
+
+  $('.mobile ul li a').on('click', function(){
+        $('.mobile ul').hide();
+    });
+
   $('.overlay').on('mouseenter', function(){
     $(this).find('button').fadeIn();
     $(this).find('img').addClass('dark');
@@ -14,8 +27,5 @@ $(document).ready(function(){
   //
   // element_to_scroll_to.scrollIntoView();
 
-  $(function() {
-    $( "#tabs" ).tabs().addClass( "ui-tabs-vertical ui-helper-clearfix" );
-    $( "#tabs li" ).removeClass( "ui-corner-top" ).addClass( "ui-corner-left" );
-  });
+
 });
