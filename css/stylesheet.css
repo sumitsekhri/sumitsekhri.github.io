@@ -42,6 +42,37 @@ nav ul li:last-child {
   margin-right: 0px;
 }
 
+nav.mobile {
+  display: none;
+}
+
+nav.mobile ul {
+  position: absolute;
+  z-index: 99999;
+  display: none;
+  margin:-32px 0 0 0;
+  width: 100%;
+}
+
+nav.mobile li {
+  height: 35px;
+  display: block;
+  background-color: #AB1530;
+  text-align: center;
+  float: none;
+  margin: 0;
+}
+
+nav.mobile li a {
+  padding: 0 0;
+}
+
+.menu-button {
+  padding: 9px 0 0 0;
+  float: right;
+  text-transform: uppercase;
+}
+
 /* Teal */
 .primary-color {
   color: #58B3AF;
@@ -190,11 +221,9 @@ button:hover::before {
 }
 
 #avatar {
-  margin: 65px 0 0 0;
+  margin: 90px 0 0 0;
   width: 200px;
   height: 200px;
-  border: 6px solid #FFFFFF;
-  border-radius: 50%;
   float: right;
 }
 
@@ -360,11 +389,11 @@ button:hover::before {
   outline: 0;
 }
 
-.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active { padding-bottom: 0; border-right: 2px solid; }
+.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active {
+  padding-bottom: 0;
+  border-right: 2px solid;
+}
 
-/*.ui-tabs-vertical .ui-tabs-panel {
-
-}*/
 
 .title {
   padding: 27px 0;
