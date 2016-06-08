@@ -242,6 +242,10 @@ button:hover::before {
   margin: 0 0 0 0;
 }
 
+.social li img {
+  width: 38px;
+}
+
 #about-me {
   background-color: #58B3AF;
   /*height: 350px;*/
